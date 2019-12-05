@@ -48,3 +48,6 @@ You can use Azure Migrate to assesses on-premises workloads for migration to Azu
 You can also use the **Microsoft Assessment and Planning Toolkit (the "MAP Toolkit")** to assess your current IT infrastructure for a variety of technology migration projects. This Solution Accelerator provides a powerful inventory, assessment, and reporting tool to simplify the migration planning process.
 
 For the Parts Unlimited application, we already know the application and database servers and their respective dependencies, so we skip the discovery process for purposes of this blog post. Both the application and SQL Server database are hosted on a server named “SQL2017.redmond.corp.microsoft.com”.
+
+
+ 
