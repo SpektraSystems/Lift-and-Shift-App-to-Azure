@@ -37,5 +37,14 @@ Finally, during **optimization**, you perform continuous evaluation and refineme
 * Begin leveraging cloud native services for better business insights.
 * Improve security to meet compliance goals.
  
-
 With this high-level road map of the migration journey in place, let’s take a look the details associated with the process associated with migrating applications and the databases supporting them.
+
+
+## Discovery
+The first step in the migration journey is to “discover” the servers hosting the application and databases to determine if there are the dependencies that would require migrating these entities to Azure together.
+
+You can use Azure Migrate to assesses on-premises workloads for migration to Azure. The service discovers and assesses the migration suitability of on-premises virtual servers and servers running SQL Servers. Azure Migrate sizes things based on performance and provides cost estimations for running on-premises computers in Azure.
+
+You can also use the **Microsoft Assessment and Planning Toolkit (the "MAP Toolkit")** to assess your current IT infrastructure for a variety of technology migration projects. This Solution Accelerator provides a powerful inventory, assessment, and reporting tool to simplify the migration planning process.
+
+For the Parts Unlimited application, we already know the application and database servers and their respective dependencies, so we skip the discovery process for purposes of this blog post. Both the application and SQL Server database are hosted on a server named “SQL2017.redmond.corp.microsoft.com”.
